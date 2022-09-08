@@ -1,0 +1,37 @@
+# Ignore Mac system files
+.DS_store
+
+# Ignore node_modules folder
+node_modules
+
+# Ignore all text files
+*.txt
+
+# Ignore files related to API keys
+.env
+
+# Ignore SASS config files
+*.vscode
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Distribution / packaging
+bin/
+build/
+develop-eggs/
+dist/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Other
+.python-version
+*.pdf
