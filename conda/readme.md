@@ -99,7 +99,12 @@ If you are using conda (we recommend installing conda via [Miniforge](https://gi
 
 3.  Install packages via Makefile then create your environment
 ```make
-make install && make create
+make install && make env
+```
+
+4.  Activate environment
+```bash
+conda activate machine-learning-book
 ```
 
 **That's it!**

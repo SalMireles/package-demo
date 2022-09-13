@@ -17,7 +17,7 @@ Python Package Management
 <!-- Topics -->
 ## Package Mangement Flavors
 
-- Pyenv
+- Pyenv (python version manager)
 - Conda
 - Poetry
 
@@ -30,21 +30,17 @@ Python Package Management
   <summary>Pyenv</summary>
   
   ### Install
-  1. Install python 3.8.10 via pyenv
-        ```sh
-        pyenv install 3.8.10
-        ```
-  2. Install python 3.8.10 via pyenv
-        ```sh
-        pyenv install 3.8.10
-        ```
-
+  1. See Documentation: https://github.com/pyenv/pyenv
   ### Usage
   Examples:
    ```python
-   make get endpoint=""
-   make get endpoint="products"
-   curl -X GET http://127.0.0.1:8000/products
+   > pyenv install 3.10.4
+   > pyenv versions
+   > pyenv install list
+   > pyenv local 3.10.4
+   > pyenv global 3.10.4
+  
+
    ```
 </details>
 
@@ -54,21 +50,12 @@ Python Package Management
   <summary>Conda</summary>
   
   ### Install
-  1. Install python 3.8.10 via pyenv
-        ```sh
-        pyenv install 3.8.10
-        ```
-  2. Install python 3.8.10 via pyenv
-        ```sh
-        pyenv install 3.8.10
-        ```
+  1. See Documentation: https://docs.conda.io/projects/conda/en/latest/user-guide/install/macos.html
 
   ### Usage
   Examples:
-   ```python
-   make get endpoint=""
-   make get endpoint="products"
-   curl -X GET http://127.0.0.1:8000/products
+   ```bash
+   cd conda
    ```
 </details>
 
@@ -78,21 +65,13 @@ Python Package Management
   <summary>Poetry</summary>
   
   ### Install
-  1. Install python 3.8.10 via pyenv
-        ```sh
-        pyenv install 3.8.10
-        ```
-  2. Install python 3.8.10 via pyenv
-        ```sh
-        pyenv install 3.8.10
+  1. See Documentation: https://python-poetry.org/docs/
         ```
 
   ### Usage
   Examples:
-   ```python
-   make get endpoint=""
-   make get endpoint="products"
-   curl -X GET http://127.0.0.1:8000/products
+   ```bash
+   cd poetry
    ```
 </details>
 
